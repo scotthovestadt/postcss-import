@@ -47,7 +47,7 @@ test("should resolve local modules", t => {
   })
 })
 
-test("should be able to consume npm package or local modules", t => {
+test("should be able to consume npm/bower package or local modules", t => {
   return compareFixtures(t, "resolve-modules", {
     path: null,
   }, {
